@@ -157,13 +157,13 @@ svg {
 	padding: 10% 6.25% 20.3% 6.25%;
 }
 
-.section-athlets, .section-players {
+.section-footballer, .section-basketballer {
 	padding-top: 7.8%;
 	position: relative;
 }
 
-.section-players .section__content,
-.section-athlets .section__content {
+.section-basketballer .section__content,
+.section-footballer .section__content {
 	padding: 0;
 	counter-reset: number;
 }
@@ -179,8 +179,8 @@ svg {
 	color: #e7e7e7;
 }
 
-.section-players .section__title,
-.section-athlets .section__title  {
+.section-basketballer .section__title,
+.section-footballer .section__title  {
 	font-size: 3.125rem;
 	padding: 0 6.25%;
 }
@@ -207,7 +207,7 @@ svg {
 	border-bottom: solid #ffffff 0.28em;
 }
 
-.section-players .section__item:nth-child(3) .title-item::before {
+.section-basketballer .section__item:nth-child(3) .title-item::before {
 	color: #8765dd;
 }
 
@@ -240,11 +240,11 @@ svg {
 	color: #ffffff;
 }
 
-.section-athlets .section__item:nth-child(3) {
+.section-footballer .section__item:nth-child(3) {
 	background-color: #5e42b0;
 }
 
-.section-players .section__item:nth-child(3) {
+.section-basketballer .section__item:nth-child(3) {
 	background-color: #090c35;
 }
 
@@ -343,32 +343,32 @@ svg {
 
 /*---------------MAIN------------------*/
 	
-	.section-athlets .section__img {
+	.section-footballer .section__img {
 		left: -150px;
 		top: 80px;
 	  max-height: 90vw;
 	}
 
-	.section-players .section__img {
+	.section-basketballer .section__img {
 		right: 0;
 		top: 25px;
 		max-height: 70vw;
 	}
 
 	.section__title,
-	.section-players .section__title,
-	.section-athlets .section__title  {
+	.section-basketballer .section__title,
+	.section-footballer .section__title  {
 		font-size: 5rem;
 		line-height: 3.75rem;
 	}
 
-	.section-players .section__title,
-	.section-athlets .section__title  {
+	.section-basketballer .section__title,
+	.section-footballer .section__title  {
 		width: 62%;
 		padding: 0;
 	}
 
-	.section-players .section__title {
+	.section-basketballer .section__title {
 		padding-left: 4.17%;
 	}
 
@@ -383,7 +383,7 @@ svg {
 		margin-top: 40px;
 	}
 
-	.section-athlets, .section-players {
+	.section-footballer, .section-basketballer {
 		padding-top: 11.33%;
 	}
 
@@ -469,13 +469,13 @@ svg {
 		margin-top: 0
 	}
 
-	.section-players .section__title,
-	.section-players .section__item > * {
+	.section-basketballer .section__title,
+	.section-basketballer .section__item > * {
 		margin: 0;
 	}
 
-	.section-athlets .section__title,
-	.section-athlets .section__item > * {
+	.section-footballer .section__title,
+	.section-footballer .section__item > * {
 		margin: 0 0 0 auto;
 	}
 }
@@ -522,14 +522,14 @@ svg {
 
 	/*-----------------MAIN--------------------*/
 
-	.section-athlets .section__img {
+	.section-footballer .section__img {
 		top: 26px;
     right: 50%;
     max-height: 750px;
 	  
 	}
 
-	.section-players .section__img {
+	.section-basketballer .section__img {
 		left: 46%;
     top: 5px;
 		max-height: 750px;
@@ -558,20 +558,20 @@ svg {
 	}
 
 	.section__title,
-	.section-players .section__title,
-	.section-athlets .section__title  {
+	.section-basketballer .section__title,
+	.section-footballer .section__title  {
 		font-size: 4.375rem;
 		line-height: 5.625rem;
 	}
 
-	.section-players .section__title,
-	.section-athlets .section__title  {
+	.section-basketballer .section__title,
+	.section-footballer .section__title  {
 		line-height: 3.75rem;
 		width: 49%;
 		padding: 0;
 	}
 
-	.section-players .section__title {
+	.section-basketballer .section__title {
 		padding-left: 10%;
 	}
 
